@@ -1,0 +1,52 @@
+.section-referidos .row {
+    padding: 2.5px 0px;
+    background-color: #ECEDF1;
+    /* height: 47px; */
+}
+
+.nav-pills {
+    background-color: #ECEDF1;
+}
+
+.nav-pills .nav-link {
+    color: black;
+}
+
+.nav-pills .active {
+    color: orange !important;
+    background-color: #ECEDF1 !important;
+    border-bottom: 2px solid #FF7400 !important;
+}
+
+
+.text-section-refer {
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+.width-img{
+    width: 273px;
+}
+
+
+
+
+/* .section-referidos .padding-div {
+    padding: 10px 0px 9px 0px;
+}
+
+.section-selected{
+    border-bottom: 2px solid #FF7400;
+    margin-bottom: -2px !important;
+}
+
+.section-noselected{
+    border-bottom: 2px solid grey;
+    margin-bottom: -2px !important;
+} */
+
+/* .section-referidos .col{
+    padding: 10px 46px;
+} */

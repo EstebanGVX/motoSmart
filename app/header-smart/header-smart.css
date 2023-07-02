@@ -1,0 +1,38 @@
+.header-smart {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F5F6F7;
+    position: sticky;
+    top: 0px;
+}
+
+.notificati{
+    border-radius: 50%;
+    background-color: red;
+    color: black;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.navbar-smart {
+    background-color: #F5F6F7;
+    padding: 18px 0px 14px 0px;
+
+}
+
+.navbar-smart .nav-iteme {
+    cursor: pointer;
+    color: #686E7F;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color:#ECEDF1;
+}

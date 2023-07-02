@@ -1,0 +1,60 @@
+<div class="section-rede">
+    <section class="section-invite pt-4">
+        <div class="widtht-85 m-auto">
+            <div class="row d-flex me-0 ms-0 align-items-center radius-switch">
+                <div role="button" ng-class="{colores:$ctrl.toRedeem}" ng-click="$ctrl.setAtribu()"
+                    class="padding-div col-6 text-center align-self-center section-selected">
+                    <p class="mb-0">Por redimir</p>
+                </div>
+                <div role="button" ng-class="{colores:$ctrl.redeemed}" ng-click="$ctrl.setAtribu()"
+                    class="padding-div col-6 text-center align-self-center">
+                    <p class="mb-0">Redimidos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section ng-if="$ctrl.toRedeem" class="to-redeem">
+        <div class="row me-0 ms-0">
+            <div class="col-12 strong-text mt-4">
+                ¡Aun no tienes acumulados para redimir en
+                MotoSmart!
+            </div>
+        </div>
+        <div class="card-reddem mt-4 width-95 me-auto ms-auto pt-2 pb-2">
+            <div class="row me-0 ms-0">
+                <div class="col">
+                    <div class="row me-0 ms-0">
+                        <div class="col-12 pb-3">
+                            <p class="text-ligth-reddem">Mayo</p>
+                        </div>
+                        <div class="col-12">
+                            <p class="text-bold-reddem">COP: 0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./../img/credit-card-regular1.svg" alt="">
+                </div>
+                <div class="col-12">
+                    <p class="text-ligth-reddem">Periodo a redimir: 01/05/2023 al 31/05/2023</p>
+                </div>
+                <div class="col-12">
+                    <button class="button-reddem button-reddem-text">Redimir</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section ng-if="$ctrl.redeemed" class="redeemed">
+        <div class="row me-0 ms-0">
+            <div class="col-12 strong-text mt-4">
+                ¡No tienes saldos redimidos!
+            </div>
+        </div>
+        <div>
+            <img src="./../img/img-redimidos.PNG" alt="">
+        </div>
+    </section>
+    <div class="pt-4">
+        <button class="button-referidos">Invitar referidos</button>
+    </div>
+</div>

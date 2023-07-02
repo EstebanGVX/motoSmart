@@ -1,0 +1,31 @@
+<!-- <div class="section-referidos">
+    <div class="row d-flex me-0 ms-0 align-items-center">
+        <div role="button" class="padding-div col-6 text-center align-self-center section-selected">
+            <p class="mb-0">Información</p>
+        </div>
+        <div role="button" ng-class="{section-noselected:buttonRef}"
+            class="padding-div col-6 text-center align-self-center">
+            <p class="mb-0">Redimidos</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 section-selected"></div>
+        <div class="col-6 section-noselected"></div>
+    </div>
+</div> -->
+
+<ul class="nav nav-pills d-flex justify-content-around me-0 ms-0 align-items-center " id="pills-tab" role="tablist">
+    <li class="nav-item w-50" role="presentation">
+        <button class="nav-link active text-section-refer m-auto w-100" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Información</button>
+    </li>
+    <li class="nav-item w-50" role="presentation">
+        <button class="nav-link text-section-refer m-auto w-100" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Redimidos</button>
+    </li>
+</ul>
+<div class="tab-content text-center" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><section-info></section-info></div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><section-rede></section-rede></div>
+</div>
+<div class="pt-3"></div>

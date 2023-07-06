@@ -20,8 +20,9 @@
 
 
 .text-section-refer {
+    color: #686E7F !important;
     font-size: 16px !important;
-    font-style: normal !important;
+    font-family: Avenir !important;
     font-weight: 400 !important;
     line-height: normal !important;
 }

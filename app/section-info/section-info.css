@@ -1,10 +1,12 @@
 .section-info {
     background-color: #F5F6F7;
+    font-family: Avenir;
 }
 
 .section-info .item-crack {
+    /* text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -13,10 +15,14 @@
     -webkit-text-fill-color: transparent;
 }
 
+.item-crack p {
+    text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.6);
+}
+
 .section-info .item-text {
     color: #686E7F;
     font-size: 11.599px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -28,9 +34,19 @@
 }
 
 .section-info .style-radius {
-    border-radius: 19.331px;
+    /* border-radius: 19.331px;
     border: 0.967px solid #FFF;
-    background: #f8f9fa!important;
+    background: #f8f9fa!important; */
+    border-radius: 19.331px;
+    border: 0.1px solid #ECEDF1;
+    background: #FFF;
+    box-shadow: 0px 9px 9px -7px rgba(0, 0, 0, 0.75);
+
+}
+
+.width-info {
+    height: 27px;
+    width: 27px;
 }
 
 .widtht-85 {
@@ -43,6 +59,7 @@
 }
 
 .section-info .section-invite .radius-switch {
+    color: orange;
     border-radius: 50px;
     border: 1px solid #FF7400;
 
@@ -57,14 +74,26 @@
 
     border-radius: 50px;
     background-color: #FF7400;
-    padding: 2px 5px;
+    padding: 5px 60px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Avenir;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 850;
+    line-height: normal;
+}
+
+.default-color {
+    color: orange;
 }
 
 .strong-text {
     color: #686E7F;
     text-align: center;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Avenir;
     font-style: normal;
     font-weight: 850;
     line-height: normal;
@@ -74,7 +103,7 @@
     color: #686E7F;
     text-align: center;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Avenir;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -83,18 +112,28 @@
 .button-referidos {
     display: inline-flex;
     padding: 10px 90px;
+    color: white;
     align-items: flex-start;
+    text-align: center;
+    font-family: Avenir;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 850;
+    line-height: normal;
     gap: 10px;
     border-radius: 5px;
     background-color: #FF7400;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    border-style: none;
 }
 
-.img-referidos-width{
+.img-referidos-width {
     max-width: 300px;
 }
 
 .card-referidos {
+    /* width: 319px; */
+    height: 160px;
     padding: 10px;
     border-radius: 20px;
     background: linear-gradient(134deg, #FFD500 0%, #FF2800 100%);
@@ -104,7 +143,7 @@
 .card-referidos .total-referidos {
     color: #FFF;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Avenir;
     font-style: normal;
     font-weight: 350;
     line-height: 20px;
@@ -113,7 +152,7 @@
 .card-referidos .bonificacion-total {
     color: #FFF;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Avenir;
     font-style: normal;
     font-weight: 850;
     line-height: 23px;
@@ -125,17 +164,18 @@
     background-color: #FFF;
 }
 
-.cards-links .box-shadow1{
-    box-shadow: -20px -20px 4px 0px rgba(0, 0, 0, 0.15);
+.cards-links .box-shadow1 {
+    /* box-shadow: -20px -20px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 
-.cards-links .box-shadow2{
-    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);}
+.cards-links .box-shadow2 {
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+}
 
 .cards-links .card-link .title-card-link {
     color: #686E7F;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Avenir;
     font-style: normal;
     font-weight: 850;
     line-height: normal;
@@ -144,7 +184,7 @@
 .cards-links .card-link .text-card-link {
     color: #686E7F;
     font-size: 12px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Avenir;
     font-style: normal;
     font-weight: 350;
     line-height: 17px;
